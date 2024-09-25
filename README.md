@@ -17,14 +17,17 @@ and champion choices, to determine their impact on the outcome of games. The goa
 - [Future Work](#future-work)
 - [License](#license)
 
-Introduction
+Introduction:
+
 League of Legends is a global multiplayer online battle arena (MOBA) game with over 100 million users. 
 In this project, we analyze professional esports matches from 2014 to 2024, focusing on factors that influence team success, 
 such as player performance metrics (kills, deaths, assists) and champion picks. 
 Our findings can help aspiring pro players and analysts understand what it takes to excel in competitive play.
 
-Data Source
+Data Source:
+
 The data used in this project is sourced from Oracle's Elixir**[Oracle's Elixir](https://oracleselixir.com/tools/downloads). 
+
 The dataset includes:
 
 - Player performance metrics (kills, deaths, assists, etc.)
@@ -32,7 +35,8 @@ The dataset includes:
 - Match outcomes
 The data is collected from a variety of official Riot APIs and publicly available esports match histories.
 
-Methods Used
+Methods Used:
+
 The project employs several data science techniques to analyze the data:
 
 1. Linear Regression: To evaluate the impact of various player performance metrics on team success.
@@ -53,7 +57,8 @@ The project employs several data science techniques to analyze the data:
 - ROC curve to measure model performance in predicting match outcomes.
 - Top 20 features to identify the most significant factors influencing match outcomes, including gold difference and experience difference at 15 minutes.
 
-Installation
+Installation:
+
 To run this project on your local machine:
 
 Clone the repository:
@@ -76,19 +81,20 @@ Use LOL_prediction_analysis.py to execute predictive models on match data.
 Open champion_visualizations.ipynb in Jupyter Notebook to explore visualizations of champion trends.
 Customize the analysis by downloading updated datasets from Oracle's Elixir and modifying the analysis scripts to work with new data.
 
-Features
+Features:
 - Player Performance Analysis: Analyze how metrics like kills, deaths, and assists affect team success using linear regression.
 - Champion Popularity Trends: Visualize changes in champion picks over time and across different regions.
 - Predictive Modeling: Evaluate which in-game factors (e.g., gold difference, XP difference) are the strongest predictors of match outcomes.
 
-Contributors
-Jaden Chin - GitHub
-Rukia Nur - GitHub
+
+Contributors:
+
+Jaden Chin - GitHub   
+Rukia Nur - GitHub     
 Fanta Kebe - [GitHub Profile](https://github.com/Fantaakebe)
 
-Future Work
+Future Work:
+
 - Deeper Champion Analysis: Conduct in-depth analyses on individual champions to understand their performance in different scenarios.
 - General Player Data: Expand the analysis to include data from casual and semi-professional players to see how playstyles differ by skill level.
 - Machine Learning Models: Further improve predictive modeling by applying more advanced machine learning techniques to enhance the accuracy of predictions.
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
