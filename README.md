@@ -60,26 +60,35 @@ The project employs several data science techniques to analyze the data:
 Installation:
 
 To run this project on your local machine:
+1. Open the Terminal:
 
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/Fantaakebe/LOL-Proplay-Analysis.git
-Navigate to the project directory:
-bash
-Copy code
-cd LOL-Proplay-Analysis
-Install the necessary Python packages:
-bash
-Copy code
-pip install -r requirements.txt
+ - On macOS or Linux, you can open the Terminal by searching for it in Spotlight (macOS) or in your Applications menu.
+ - On Windows, you can use the Command Prompt or PowerShell. If you use Git Bash or Windows Subsystem for Linux (WSL), you can also follow the same steps.
 
-Usage
+2. Clone the repository:
 
-Run the analysis scripts:
-Use LOL_prediction_analysis.py to execute predictive models on match data.
-Open champion_visualizations.ipynb in Jupyter Notebook to explore visualizations of champion trends.
-Customize the analysis by downloading updated datasets from Oracle's Elixir and modifying the analysis scripts to work with new data.
+- git clone https://github.com/Fantaakebe/LOL-Proplay-Analysis.git
+
+3. Navigate to the project directory:
+   
+- cd LOL-Proplay-Analysis
+
+4. Install the necessary Python packages:
+
+- pip install -r requirements.txt
+
+
+Usage:
+
+1. Run the analysis scripts:
+ - Use LOL_prediction_analysis.py to execute predictive models on match data.
+ - Open champion_visualizations.ipynb in Jupyter Notebook to explore visualizations of champion trends.
+ - Run Project.py to execute additional analysis, such as combining multiple visualizations or running specific statistical models on the match data.
+
+   
+2. Customizing the Analysis:
+ - You can download updated datasets from [Oracle's Elixir](https://oracleselixir.com/tools/downloads) and modify the analysis scripts (LOL_prediction_analysis.py or Project.py) to work with new data.
+ - Data visualizations, including champion pick rates, match outcomes, and regional performance, can be generated and analyzed.
 
 Features:
 - Player Performance Analysis: Analyze how metrics like kills, deaths, and assists affect team success using linear regression.
@@ -89,8 +98,8 @@ Features:
 
 Contributors:
 
-Jaden Chin - GitHub   
-Rukia Nur - GitHub     
+Jaden Chin - GitHub Profile     
+Rukia Nur - [GitHub Profile](https://github.com/Rukian)     
 Fanta Kebe - [GitHub Profile](https://github.com/Fantaakebe)
 
 Future Work:
