@@ -98,7 +98,7 @@ Features:
 
 Contributors:
 
-Jaden Chin - GitHub Profile     
+Jaden Chin - [GitHub Profile](https://github.com/jmc0405)   
 Rukia Nur - [GitHub Profile](https://github.com/Rukian)     
 Fanta Kebe - [GitHub Profile](https://github.com/Fantaakebe)
 
